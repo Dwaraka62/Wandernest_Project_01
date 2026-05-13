@@ -4,7 +4,7 @@ type: azure_open_ai
 name: azure_openai_connection
 module: promptflow.connections
 api_base: https://pdwfoundrygf.cognitiveservices.azure.com/
-api_key: ${env:AZURE_OPENAI_CONNECTION_API_KEY}
+api_key: ${envAZURE_OPENAI_CONNECTION_API_KEY}
 api_type: azure
 api_version: 2024-12-01-preview
 auth_mode: key
