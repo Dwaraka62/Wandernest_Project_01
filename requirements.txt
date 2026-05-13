@@ -1,0 +1,18 @@
+# Requirements for Promptflow, Azure resources, and Docker integration
+# Ensure Python 3.8-3.11 is used (Promptflow requirement)
+
+# Core Promptflow package
+promptflow
+
+# Azure AI and ML resources
+azure-ai-ml
+azure-identity
+azure-storage-blob
+azure-keyvault-secrets
+
+# Docker Python SDK for container management
+docker
+
+# Azure Container resources (if needed for ACI, etc.)
+azure-mgmt-containerinstance
+azure-containerregistry
